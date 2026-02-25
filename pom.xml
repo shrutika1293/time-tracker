@@ -89,4 +89,10 @@
             </plugin>
         </plugins>
     </reporting>
+         <distributionManagement>
+    <repository>
+        <id>maven-repo</id>
+        <url>https://trial7obqqz.jfrog.io/artifactory/maven-repo</url>
+    </repository>
+</distributionManagement>
 </project>
